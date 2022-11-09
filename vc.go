@@ -1,6 +1,6 @@
 package types
 
-import "github.com/UiCheonKim/go-verifiable"
+import "go-verifiable"
 
 type VerifiableCredential struct {
 	Verifiable *verifiable.Credential `json:"verifiable"`
